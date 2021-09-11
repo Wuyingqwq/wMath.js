@@ -299,8 +299,8 @@ var wMath = {
         return getDate.getSeconds();
     },
 
-    getThisTime:function(){
-        return "当前时间：" + this.getYear() + "年" + this.getMonth() + "月" + this.getDate() + "日" + this.getHours() + "时" + this.getMinutes() + "分" + this.getSeconds() + "秒";
+    getThisTime:function(thisTimerssname,yearssname,monthssname,dayssname,hourssname,minutessname,secondssname){
+        return thisTimerssname + this.getYear() + yearssname + this.getMonth() + monthssname + this.getDate() + dayssname + this.getHours() + hourssname + this.getMinutes() + minutessname + this.getSeconds() + secondssname;
     },
 
 }
