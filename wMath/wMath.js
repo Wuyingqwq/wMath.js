@@ -300,6 +300,8 @@ var wMath = {
     },
 
     getThisTime:function(thisTimerssname,yearssname,monthssname,dayssname,hourssname,minutessname,secondssname){
+        location.reload();
+
         return thisTimerssname + this.getYear() + yearssname + this.getMonth() + monthssname + this.getDate() + dayssname + this.getHours() + hourssname + this.getMinutes() + minutessname + this.getSeconds() + secondssname;
     },
 
