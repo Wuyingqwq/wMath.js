@@ -8,7 +8,6 @@ You can find it in github.
 本JS对常见数学的计算进行了类型判断以及弹出警告。
 本JS将会持续更新。
 */ 
-var msg = "非法数字！"; //You can change this alert message.
 
 var getDate = new Date();
 
@@ -19,7 +18,7 @@ var wMath = {
         y = +y;
 
         if(isNaN(x) || isNaN(y)){
-            alert(msg);
+            return undefined;
         }else{
             return Math.pow(x,y);
         }
@@ -30,7 +29,7 @@ var wMath = {
         x = +x;
 
         if(isNaN(x)){
-            alert(msg);
+            return undefined;
         }else{
             return Math.abs(x);
         }
@@ -42,7 +41,7 @@ var wMath = {
         y = +y;
 
         if(isNaN(x) || isNaN(y)){
-            alert(msg);
+            return undefined;
         }else{
             return Math.max(x,y);
         }
@@ -54,7 +53,7 @@ var wMath = {
         y = +y;
 
         if(isNaN(x) || isNaN(y)){
-            alert(msg);
+            return undefined;
         }else{
             return Math.min(x,y);
         }
@@ -65,7 +64,7 @@ var wMath = {
         x = +x;
 
         if(isNaN(x)){
-            alert(msg);
+            return undefined;
         }else{
             return Math.trunc(x);
         }
@@ -81,7 +80,7 @@ var wMath = {
         x = +x;
 
         if(isNaN(x)){
-            alert(msg);
+            return undefined;
         }else{
             return Math.round(x);
         }
@@ -98,7 +97,7 @@ var wMath = {
         let temp2 = x * y;
 
         if(isNaN(temp1) || isNaN(temp2)){
-            alert(msg);
+            return undefined;
         }else if(temp1 == temp2){
             return true;
         }else{
@@ -120,7 +119,7 @@ var wMath = {
         x = +x;
 
         if(isNaN(x)){
-            alert(msg);
+            return undefined;
         }else if(x % 4 == 0 && x % 100 != 0 || x % 400 == 0){
             return true;
         }else{
@@ -136,7 +135,7 @@ var wMath = {
         z = +z;
 
         if(isNaN(w / x) || isNaN(y / z)){
-            alert(msg);
+            return undefined;
         }else if(w / x > y / z){
             return true;
         }else{
@@ -150,7 +149,7 @@ var wMath = {
         min = +min;
 
         if(isNaN(max) || isNaN(min)){
-            alert(msg);        
+            return undefined;       
         }else{
             return Math.random() * (max - min) + min; //max>此得数>=min
         }
@@ -162,7 +161,7 @@ var wMath = {
         min = +min
 
         if(isNaN(max) || isNaN(min)){
-            alert(msg);
+            return undefined;
         }else{
             min = Math.ceil(min);
             max = Math.floor(max);
@@ -176,7 +175,7 @@ var wMath = {
         min = +min;
 
         if(isNaN(max) || isNaN(min)){
-            alert(msg);
+            return undefined;
         }else{
             min = Math.ceil(min);
             max = Math.floor(max);
@@ -189,7 +188,7 @@ var wMath = {
         x = +x;
 
         if(isNaN(x)){
-            alert(msg);
+            return undefined;
         }else{
             return Math.ceil(x);
         }
@@ -200,7 +199,7 @@ var wMath = {
         x = +x;
 
         if(isNaN(x)){
-            alert(msg);
+            return undefined;
         }else{
             return Math.floor(x);
         }
@@ -211,16 +210,16 @@ var wMath = {
         x = +x;
 
         if(isNaN(x)){
-            alert(msg);
+            return undefined;
         }else{
             let result = Math.sign(x);
 
             if(result == 1){
-                alert("此数字为正数！"); //正数
+                return "此数字为正数！"; //正数
             }else if(result == 0){
-                alert("此数字既不是正数也不是负数！"); //输入的数字为0
+                return "此数字既不是正数也不是负数！"; //输入的数字为0
             }else{
-                alert("此数字为负数！"); //负数
+                return "此数字为负数！"; //负数
             }
         }
     },
@@ -229,7 +228,7 @@ var wMath = {
         x = +x;
 
         if(isNaN(x)){
-            alert(msg);
+            return undefined;
         }else if(x == 0){
             return 0;
         }else if(Math.abs(x) == x){
@@ -299,10 +298,10 @@ var wMath = {
         return getDate.getSeconds();
     },
 
-    getThisTime:function(thisTimerssname,yearssname,monthssname,dayssname,hourssname,minutessname,secondssname){
+    getThisTime:function(thisTimessname,yearssname,monthssname,dayssname,hourssname,minutessname,secondssname){
         location.reload();
 
-        return thisTimerssname + this.getYear() + yearssname + this.getMonth() + monthssname + this.getDate() + dayssname + this.getHours() + hourssname + this.getMinutes() + minutessname + this.getSeconds() + secondssname;
+        return thisTimessname + this.getYear() + yearssname + this.getMonth() + monthssname + this.getDate() + dayssname + this.getHours() + hourssname + this.getMinutes() + minutessname + this.getSeconds() + secondssname;
     },
 
 }
