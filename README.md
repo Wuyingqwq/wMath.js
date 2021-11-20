@@ -8,7 +8,7 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
   - Don't need write the calculation process in your js file.Just leave it to wMath!
   - When you use it, just call the corresponding function and pass the parameters to get the result!
 
-## Use:
+## Usage:
 
 Choose one: 
 
