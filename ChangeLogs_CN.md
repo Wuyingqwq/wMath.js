@@ -2,6 +2,7 @@
 
 Beta 091021：添加“GetThisTime”对象。
 
+
 Beta 091121：改进“GetThisTime”对象。
 
 Beta 091121：添加当使用“GetThisTime”对象时将重新加载Html。
