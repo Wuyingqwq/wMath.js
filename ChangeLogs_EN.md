@@ -1,3 +1,5 @@
+English | [变更日志（简体中文）](./ChangeLogs_CN.md)
+
 091021:Add "GetThisTime" Object.
 
 091121:Improve "GetThisTime" Object.
