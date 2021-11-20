@@ -1,4 +1,4 @@
-[Changelogs](./changelogs.md)
+[Changelogs](./changelogs_En.md)
 
 # Made by Wuying.
 # Language:English & Chinese.
