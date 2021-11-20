@@ -12,7 +12,7 @@
 
 选择1: 
 
-  - <script src="http://raw.githack.com/Wuyingqwq/wMath/main/wMath/wMath.js"></script> 
+  - <script src="http://raw.githack.com/Wuyingqwq/wMath/main/wMath/wMath.js"> </script> 
 
 选择2: 
 
