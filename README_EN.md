@@ -1,11 +1,11 @@
 English | [简体中文](./README_CN.md)
 
-#112021 Changelogs:
-+ Add multiple numbers.
-+ Multiply multiple numbers.
-+ Add consecutive numbers.
-+ Multiply consecutive numbers.
-/ Fix bugs.
+# 112021 Changelogs:
+  + Add multiple numbers.
+  + Multiply multiple numbers.
+  + Add consecutive numbers.
+  + Multiply consecutive numbers.
+  / Fix bugs.
 
 wMath
 ========================================
@@ -19,15 +19,15 @@ wMath
 
 Choose one: 
 
-# <script src="http://raw.githack.com/Wuyingqwq/wMath/main/wMath/wMath.js"></script> 
+  - <script src="http://raw.githack.com/Wuyingqwq/wMath/main/wMath/wMath.js"></script> 
 
 Choose two: 
 
-# Step.1 Download wMath.js 
+  - Step.1 Download wMath.js 
 
-# Step.2 Use <script> introduce wMath.js
+  - Step.2 Use <script> introduce wMath.js
   
-# Step.3 Now you can use wMath to code your website!
+  - Step.3 Now you can use wMath to code your website!
   
 ## Notices:
   - When you use the eq object,you must introduce Algebra.js.
