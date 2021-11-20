@@ -1,3 +1,5 @@
+[Changelogs](./changelogs.md)
+
 # Made by Wuying.
 # Language:English & Chinese.
 # IDE:Visual Studio Code.
