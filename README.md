@@ -1,11 +1,11 @@
 English | [简体中文](./README_CN.md)
 
 # 112021 Changelogs:
-  + Add multiple numbers.
-  + Multiply multiple numbers.
-  + Add consecutive numbers.
-  + Multiply consecutive numbers.
-  / Fix bugs.
+  - + Add multiple numbers.
+  - + Multiply multiple numbers.
+  - + Add consecutive numbers.
+  - + Multiply consecutive numbers.
+  - / Fix bugs.
 
 wMath
 ========================================
