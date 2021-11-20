@@ -14,7 +14,7 @@
 
   - <script src="http://raw.githack.com/Wuyingqwq/wMath/main/wMath/wMath.js"></script> 
 
-Choose two: 
+选择2: 
 
   - 步骤1 下载wMath.js 
 
