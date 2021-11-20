@@ -1,3 +1,5 @@
+[English](./ChangeLogs_EN.md) | 变更日志（简体中文）
+
 091021：添加“GetThisTime”对象。
 
 091121：改进“GetThisTime”对象。
