@@ -5,7 +5,7 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 
 ## Features:
 
-  - Don't need write the calculation process in your js.Just leave it to wMath!
+  - Don't need write the calculation process in your js file.Just leave it to wMath!
   - When you use it, just call the corresponding function and pass the parameters to get the result!
 
 ## Use:
@@ -18,9 +18,9 @@ Choose two:
 
   - Step.1 Download wMath.js 
 
-  - Step.2 Use <script> introduce wMath.js
+  - Step.2 Use <script> label introduce wMath.js
   
-  - Step.3 Now you can use wMath to code your website!
+  - Now you can use wMath to code your website!
   
 ## Notices:
   - When you use the eq object,you must introduce Algebra.js.
