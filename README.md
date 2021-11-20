@@ -20,7 +20,7 @@ Choose two:
 
   - Step.2 Use <script> label introduce wMath.js
   
-  - Now you can use wMath to code your website!
+
   
 ## Notices:
   - When you use the eq object,you must introduce Algebra.js.
