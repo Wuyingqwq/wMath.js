@@ -3,7 +3,7 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 # wMath
 ========================================
 
-#wMath's official website:wmath.icu
+# wMath's official website:wmath.icu
 ========================================
 
 ## Features:
