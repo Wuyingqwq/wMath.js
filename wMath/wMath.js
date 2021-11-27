@@ -31,23 +31,31 @@ var wMath = {
         let text1 = x;
         let text2 = y;
 
-        var result = '';
-        result = +result;
-        result = 1;
+        if(isNaN(text1) || isNaN(text2)){
+			return undefined;
+		}else{
+			var result = '';
+			result = +result;
+			result = 1;
+			
+			for (var i2 = text1; i2 <= text2; i2++) {
+			
+			    var num = i2;
+			    num = +num;
+			    console.log('num = ' + num);
+			    console.log("num's type = " + typeof (num));
+			
+			
+			    result = result * num;
+			    console.log(result)
+			}
+		}
 
-        for (var i2 = text1; i2 <= text2; i2++) {
 
-            var num = i2;
-            num = +num;
-            console.log('num = ' + num);
-            console.log("num's type = " + typeof (num));
-
-
-            result = result * num;
-            console.log(result)
-        }
-
-        return result;
+		
+		return result;
+		
+			
     },
 
 
@@ -55,93 +63,32 @@ var wMath = {
     AMNO: function (x, y) {
         let text1 = x;
         let text2 = y;
-
-        var result = '';
-        result = +result;
-        result = 0;
-
-        for (var i2 = text1; i2 <= text2; i2++) {
-
-            var num = i2;
-            num = +num;
-            console.log('num = ' + num);
-            console.log("num's type = " + typeof (num));
-
-
-            result = result + num;
-            console.log('result = ' + result)
-        }
-
-        return result;
-    },
-
-    //多个数相乘
-    CMMN: function (x) {
-        let value = x;
-
-        var result = '';
-        result = +result;
-        result = 1;
-
-        let values = value.split(',') // 根据运算符分割数字
-        console.log(values)
-        /*
-        let num1 = parseFloat(values[0])
-        let num2 = parseFloat(values[1])
-        */
-
-        let i = values.length - 1;
-
-        //console.log(i)
-
-        for (var i2 = 0; i2 <= i; i2++) {
-
-            var num = parseFloat(values[i2]);
-            num = +num;
-            console.log('num = ' + num);
-            console.log("num's type = " + typeof (num));
-
-
-            result = result * num;
-            console.log(result)
-        }
-
-        return result;
-    },
-
-    //多个数相加
-    AMN: function (x) {
-        let value = x;
-        console.log('value = ' + value);
-
-        var result = '';
-        result = +result;
-        result = 0;
-
-        let values = value.split(',') // 根据运算符分割数字
-        console.log(values)
-        /*
-        let num1 = parseFloat(values[0])
-        let num2 = parseFloat(values[1])
-        */
-
-        let i = values.length - 1;
-
-        //console.log(i)
-
-        for (var i2 = 0; i2 <= i; i2++) {
-
-            var num = parseFloat(values[i2]);
-            num = +num;
-            console.log('num = ' + num);
-            console.log("num's type = " + typeof (num));
-
-
-            result = result + num;
-            console.log(result)
-        }
-
-        return result;
+		
+        if(isNaN(text1) || isNaN(text2)){
+			return undefined;
+		}else{
+			var result = '';
+			result = +result;
+			result = 0;
+			
+			for (var i2 = text1; i2 <= text2; i2++) {
+			
+			    var num = i2;
+			    num = +num;
+			    console.log('num = ' + num);
+			    console.log("num's type = " + typeof (num));
+			
+			
+			    result = result + num;
+			    console.log('result = ' + result)
+			}
+		}
+			
+			
+			
+			return result;
+			
+		
     },
 
     //解二元一次方程（使用时请务必引入Algebra.js，原Github链接为：https://github.com/nicolewhite/algebra.js）
