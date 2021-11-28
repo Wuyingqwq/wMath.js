@@ -4,8 +4,8 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 ========================================
 ## Website:
 
-- wMath's official website:wmath.icu
-- Website built using wMath:wuyingweb.xyz
+- [Official Website](http://wmath.icu/)
+- [Website built using wMath](https://wuyingweb.xyz/)
 
 
 ## Features:
