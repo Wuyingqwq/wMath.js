@@ -2,11 +2,11 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 
 # wMath
 ========================================
-# Website:
+## Website:
 
-# wMath's official website:wmath.icu
-# Website built using wMath:wuyingweb.xyz
-========================================
+## wMath's official website:wmath.icu
+## Website built using wMath:wuyingweb.xyz
+
 
 ## Features:
 
