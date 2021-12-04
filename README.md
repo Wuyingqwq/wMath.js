@@ -5,7 +5,7 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 ## Website:
 
 - [wMath's Official Website](http://wmath.icu/)
-- [Website built using wMath](https://wuyingweb.xyz/)
+- [Website built using wMath](http://math.wmath.icu/)
 
 
 ## Features:
