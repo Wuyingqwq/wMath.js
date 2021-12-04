@@ -1,32 +1,17 @@
 /*
-Made By Wuying.
-If you can't understand Chinese,you can use Google Translate.
-You can find it in github.
-Link(Only this):https://github.com/Wuyingqwq/wMath
+This build is made for debug.If you isn't a Developer,please use the default version.
 */
 
 /*
-本JS对常见数学的计算进行了类型判断以及弹出警告。
-本JS将会持续更新。
+This build has some debug functions.If you need more debug functions,please connect me.
 */
 
 /*
-如果用户输入的内容不是数字，则返回数的返回值为Undefined（处解方程外）
-*/ 
+Have any idea?
+You can download wMath and send your revised version to wuyingqwq@gmail.com
+Made by Wuying.
+*/
 
-/*
-解二元二次方程函数名：eq()
-需传入两个方程式子，且未知数必须要为x,y
-
-使用时请务必引入Algebra.js，原Github链接为：https://github.com/nicolewhite/algebra.js
-返回值是一个数组，[0]为x的表达式，[1]为y的表达式,[2]为x的值,[3]为y的值
-
-注：
-1.如果不输入正确的方程，会报错
-2.运算符号只能为加减乘，注：乘无需加x或*，例如3x
-
-E-mail:wuyingqwq@gmail.com
-*/ 
 
 var getDate = new Date();
 
@@ -34,29 +19,48 @@ var wMath = {
     //连续数相乘
     CMMNO: function (x, y) {
         let text1 = x;
+
+        //Debug
+        console.log('[CMMNO Function]:x = ' + x);
         let text2 = y;
 
+        //Debug
+        console.log('[CMMNO Function]:y = ' + y);
+
         if (isNaN(text1) || isNaN(text2)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[CMMNO Function]:The content you entered is not a number!It will return undefined!');
+
 			return undefined;
-        } else {
-            //定义变量
+		}else{
 			var result = '';
 			result = +result;
-			result = 1;
+            result = 1;
+            
+            //Debug
+            console.log('[CMMNO Function]:result = ' + result);
+            console.log("[CMMNO Function]:result's type = " + typeof (result));
+
 			
-            //计算
 			for (var i2 = text1; i2 <= text2; i2++) {
 			
 			    var num = i2;
-			    num = +num;			
+                num = +num;
+                
+                //Debug
+			    console.log('[CMMNO Function]:num = ' + num);
+			    console.log("[CMMNO Function]:num's type = " + typeof (num));
 			
-			    result = result * num;
+			
+                result = result * num;
+                
+                //Debug
+                console.log('[CMMNO Function]:' + result);
 			}
 		}
 
 
-		//返回结果
+		
 		return result;
 		
 			
@@ -66,27 +70,46 @@ var wMath = {
     //连续数相加
     AMNO: function (x, y) {
         let text1 = x;
+
+        //Debug
+        console.log('[AMNO Function]:x = ' + x);
+
         let text2 = y;
+
+        //Debug
+        console.log('[AMNO Function]:y = ' + y);
 		
         if (isNaN(text1) || isNaN(text2)) {
-            //输入的内容不是数字
+            console.log('[AMNO Function]:The content you entered is not a number!It will return undefined!')
 			return undefined;
-        } else {
-            //定义变量
+		}else{
 			var result = '';
 			result = +result;
-			result = 0;
+            result = 0;
+            
+            //Debug
+            console.log('[AMNO Function]:result = ' + result);
+            console.log("[AMNO Function]:result's type = " + typeof (result));
 			
-            //计算
 			for (var i2 = text1; i2 <= text2; i2++) {
 			
 			    var num = i2;
-			    num = +num;
+                num = +num;
+                
+                //Debug
+			    console.log('[AMNO Function]:num = ' + num);
+			    console.log("[AMNO Function]:num's type = " + typeof (num));
+			
+			
+                result = result + num;
+                
+                //Debug
+			    console.log('[AMNO Function]:result = ' + result)
 			}
 		}
 			
 			
-			//返回结果
+			
 			return result;
 			
 		
@@ -110,21 +133,30 @@ var wMath = {
         //=================================================
         //解出X值
         var eq = new Equation(answer1, answer2);
+        console.log("[Eq Function]x'sexpression = " + eq.toString());
         var xsexpression = eq.toString();
         var answerX = eq.solveFor("x");
+        console.log("[Eq Function]x's solution = " + answerX.toString());
         var xsresult = answerX.toString();
         //=================================================
         //解出Y值（把x的值代入x1或x2）
         eq = x1.eval({
             x: answerX
         });
+        console.log("[Eq Function]y'sexpression = " + eq.toString());
         var ysexpression = eq.toString();
         var answerY = eq.solveFor("y");
+        console.log("[Eq Function]y's solution = " + answerY.toString());
         var ysresult = answerY.toString();
 
-        //创建数组
+        /*
+        console.log(xsexpression)
+        console.log(ysexpression)
+        console.log(xsresult)
+        console.log(ysresult)
+        */
+
         var results = new Array(xsexpression, ysexpression, xsresult, ysresult);
-        //返回结果
         return results;
 
     },
@@ -135,10 +167,11 @@ var wMath = {
         y = +y;
 
         if (isNaN(x) || isNaN(y)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[Pow Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else {
-            //返回结果
             return Math.pow(x, y);
         }
     },
@@ -148,10 +181,11 @@ var wMath = {
         x = +x;
 
         if (isNaN(x)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[Abs Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else {
-            //返回结果
             return Math.abs(x);
         }
     },
@@ -162,10 +196,11 @@ var wMath = {
         y = +y;
 
         if (isNaN(x) || isNaN(y)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[Max Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else {
-            //返回结果
             return Math.max(x, y);
         }
     },
@@ -176,10 +211,11 @@ var wMath = {
         y = +y;
 
         if (isNaN(x) || isNaN(y)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[Min Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else {
-            //返回结果
             return Math.min(x, y);
         }
     },
@@ -189,17 +225,17 @@ var wMath = {
         x = +x;
 
         if (isNaN(x)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[Trunc Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else {
-            //返回结果
             return Math.trunc(x);
         }
     },
 
     //从0到1随机一个多位小数（不包括1）
     random: function () {
-        //返回结果
         return Math.random();
     },
 
@@ -208,10 +244,11 @@ var wMath = {
         x = +x;
 
         if (isNaN(x)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[Round Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else {
-            //返回结果
             return Math.round(x);
         }
     },
@@ -227,13 +264,13 @@ var wMath = {
         let temp2 = x * y;
 
         if (isNaN(temp1) || isNaN(temp2)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[Proportion Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else if (temp1 == temp2) {
-            //返回结果
             return true;
         } else {
-            //返回结果
             return false;
         }
     },
@@ -241,10 +278,8 @@ var wMath = {
     //判断今年是否为闰年
     thisYear: function () {
         if (getDate.getFullYear() % 4 == 0 && getDate.getFullYear() % 100 != 0 || getDate.getFullYear() % 400 == 0) {
-            //返回结果
             return true;
         } else {
-            //返回结果
             return false;
         }
     },
@@ -254,13 +289,13 @@ var wMath = {
         x = +x;
 
         if (isNaN(x)) {
-            //输入的内容不是数字
+             //Debug
+             console.log('[Year Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else if (x % 4 == 0 && x % 100 != 0 || x % 400 == 0) {
-            //返回结果
             return true;
         } else {
-            //返回结果
             return false;
         }
     },
@@ -273,13 +308,13 @@ var wMath = {
         z = +z;
 
         if (isNaN(w / x) || isNaN(y / z)) {
-            //输入的内容不是数字
+             //Debug
+             console.log('[Fraction Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else if (w / x > y / z) {
-            //返回结果
             return true;
         } else {
-            //返回结果
             return false;
         }
     },
@@ -290,10 +325,12 @@ var wMath = {
         min = +min;
 
         if (isNaN(max) || isNaN(min)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[RandomFromXY Function]:The content you entered is not a number!It will return undefined!');
+
+
             return undefined;
         } else {
-            //返回结果
             return Math.random() * (max - min) + min; //max>此得数>=min
         }
     },
@@ -304,12 +341,13 @@ var wMath = {
         min = +min
 
         if (isNaN(max) || isNaN(min)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[RandomFromXYForInteger Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else {
             min = Math.ceil(min);
             max = Math.floor(max);
-            //返回结果
             return Math.floor(Math.random() * (max - min)) + min; //max>此得数>min
         }
     },
@@ -320,12 +358,13 @@ var wMath = {
         min = +min;
 
         if (isNaN(max) || isNaN(min)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[RandomFromXYForIntegerIntegerincludeXY Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else {
             min = Math.ceil(min);
             max = Math.floor(max);
-            //返回结果
             return Math.floor(Math.random() * (max - min + 1)) + min;
         }
     },
@@ -335,10 +374,11 @@ var wMath = {
         x = +x;
 
         if (isNaN(x)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[Ceil Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else {
-            //返回结果
             return Math.ceil(x);
         }
     },
@@ -348,10 +388,11 @@ var wMath = {
         x = +x;
 
         if (isNaN(x)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[Floor Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else {
-            //返回结果
             return Math.floor(x);
         }
     },
@@ -361,7 +402,9 @@ var wMath = {
         x = +x;
 
         if (isNaN(x)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[Ceil Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else {
             let result = Math.sign(x);
@@ -376,20 +419,20 @@ var wMath = {
         }
     },
 
-    //获取x的相反数
+    //获取x的绝对值
     oppositeNumber: function (x) {
         x = +x;
 
         if (isNaN(x)) {
-            //输入的内容不是数字
+            //Debug
+            console.log('[OppositeNumber Function]:The content you entered is not a number!It will return undefined!');
+
             return undefined;
         } else if (x == 0) {
             return 0;
         } else if (Math.abs(x) == x) {
-            //返回结果
-            return '-' + Math.abs(x);//负数
+            return '-' + Math.abs(x);
         } else {
-            //返回结果
             return Math.abs(x);
         }
 
@@ -420,43 +463,37 @@ var wMath = {
         ];
 
 
-        //返回结果
+
         return week[getDate.getDay() - 1];
     },
 
     //获取当前月份
     getMonth: function () {
-        //返回结果
         return getDate.getMonth() + 1;
     },
 
     //获取当前年份
     getYear: function () {
-        //返回结果
         return getDate.getFullYear();
     },
 
     //获取当前日期
     getDate: function () {
-        //返回结果
         return getDate.getDate();
     },
 
     //获取当前小时
     getHours: function () {
-        //返回结果
         return getDate.getHours();
     },
 
     //获取当前分钟
     getMinutes: function () {
-        //返回结果
         return getDate.getMinutes();
     },
 
     //获取当前秒数
     getSeconds: function () {
-        //返回结果
         return getDate.getSeconds();
     },
 
@@ -464,7 +501,6 @@ var wMath = {
     getThisTime: function (thisTimessname, yearssname, monthssname, dayssname, hourssname, minutessname, secondssname) {
         location.reload();
 
-        //返回结果
         return thisTimessname + this.getYear() + yearssname + this.getMonth() + monthssname + this.getDate() + dayssname + this.getHours() + hourssname + this.getMinutes() + minutessname + this.getSeconds() + secondssname;
     },
 
