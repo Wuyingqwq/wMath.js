@@ -16,8 +16,6 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 ## Usage:
 
 Choose one: 
-
-  - <script src="http://raw.githack.com/Wuyingqwq/wMath/main/Builds/wMath-Lastest.js"> </script> 
   - <script src="http://wmath.icu/wmath/wMath-Lastest.js"> </script> 
 
 Choose two: 
