@@ -17,8 +17,8 @@
 
 选择1: 
 
-  - <script src="http://raw.githack.com/Wuyingqwq/wMath/main/Builds/wMath-1.2.2.js"> </script> 
-  - <script src="http://wmath.icu/wmath/wMath-1.2.2.js"> </script> 
+  - <script src="http://raw.githack.com/Wuyingqwq/wMath/main/Builds/wMath-Lastest.js"> </script> 
+  - <script src="http://wmath.icu/wmath/wMath-Lastest.js"> </script> 
 
 选择2: 
 
