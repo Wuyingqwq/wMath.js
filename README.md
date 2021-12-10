@@ -18,6 +18,9 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 Choose one: 
   - <script src="http://wmath.icu/wmath/wMath-Lastest.js"> </script> 
 
+  - If you are a developer you can use this version:
+  - <script src="http://wmath.icu/wmath/wMath-Debug-Lastest.js"> </script> 
+
 Choose two: 
 
   - Step.1 Download wMath.js 
