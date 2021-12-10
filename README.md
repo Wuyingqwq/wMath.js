@@ -17,8 +17,8 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 
 Choose one: 
 
-  - <script src="http://raw.githack.com/Wuyingqwq/wMath/main/wMath/wMath.js"> </script> 
-  - <script src="http://wmath.icu/wmath/wMath-1.2.js"> </script> 
+  - <script src="http://raw.githack.com/Wuyingqwq/wMath/main/Builds/wMath-1.2.2.js"> </script> 
+  - <script src="http://wmath.icu/wmath/wMath-1.2.2.js"> </script> 
 
 Choose two: 
 
