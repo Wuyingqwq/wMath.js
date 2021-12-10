@@ -16,10 +16,10 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 ## Usage:
 
 Choose one: 
-  - <script src="http://wmath.icu/wmath/wMath-Lastest.js"> </script> 
+  - <script src="http://wmath.icu/wmath/wMath-Latest.js"> </script> 
 
   + If you are a developer you can use this version:
-  - <script src="http://wmath.icu/wmath/wMath-Debug-Lastest.js"> </script> 
+  - <script src="http://wmath.icu/wmath/wMath-Debug-Latest.js"> </script> 
 
 Choose two: 
 
