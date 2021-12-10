@@ -16,9 +16,9 @@
 ## 使用:
 
 选择1: 
-  - <script src="http://wmath.icu/wmath/wMath-Lastest.js"> </script> 
+  - <script src="http://wmath.icu/wmath/wMath-Latest.js"> </script> 
   - 如果你是一个开发者，可以使用下面这个版本：
-  - <script src="http://wmath.icu/wmath/wMath-Debug-Lastest.js"> </script> 
+  - <script src="http://wmath.icu/wmath/wMath-Debug-Latest.js"> </script> 
 
 选择2: 
 
