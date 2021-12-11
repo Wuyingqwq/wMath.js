@@ -4,7 +4,7 @@ English | [变更日志（简体中文）](./ChangeLogs_CN.md)
 ## Add getValue function
 ## Add changeColor function
 ## Add changeValue function
-## Add CMMNO and AMNO functions when the return value is infinite will return alert message
+## Add when CMMNO and AMNO functions the return value is infinite will return alert message
 ## Fix bugs and completion of comments
 # ======================================== 
 
