@@ -6,6 +6,7 @@ English | [变更日志（简体中文）](./ChangeLogs_CN.md)
 ## Add changeValue function.
 ## Add CMMNO and AMNO functions when the return value is infinite will return alert message.
 ## Fix bugs and completion of comments.
+# ======================================== 
 
 V1.2.2:
 Fix Supplementary notes.
