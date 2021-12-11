@@ -1,11 +1,11 @@
 English | [变更日志（简体中文）](./ChangeLogs_CN.md)
 
 # V1.2.3:
-## Add getValue function.
-## Add changeColor function.
-## Add changeValue function.
-## Add CMMNO and AMNO functions when the return value is infinite will return alert message.
-## Fix bugs and completion of comments.
+## Add getValue function
+## Add changeColor function
+## Add changeValue function
+## Add CMMNO and AMNO functions when the return value is infinite will return alert message
+## Fix bugs and completion of comments
 # ======================================== 
 
 V1.2.2:
