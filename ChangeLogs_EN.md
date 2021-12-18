@@ -12,7 +12,7 @@ V1.2.3:
 
 
 V1.2.2:
-Fix Supplementary notes.
+- Fix Supplementary notes.
 
  V1.2.1:
 - Add multiple numbers.
