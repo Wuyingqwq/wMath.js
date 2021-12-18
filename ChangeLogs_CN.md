@@ -1,12 +1,16 @@
 [English](./ChangeLogs_EN.md) | 变更日志（简体中文）
 
-# V1.2.3:
-## 添加getValue功能
-## 添加changeColor功能
-## 添加changeValue功能
-## 添加当的CMMNO和AMNO函数返回值为'Infinite'时会返回警告信息
-## 修复Bug及补全注释
+# V1.2.4:
+## 添加algebra-0.2.4.min.js的代码
 # ======================================== 
+
+V1.2.3:
+添加getValue功能
+添加changeColor功能
+添加changeValue功能
+添加当的CMMNO和AMNO函数返回值为'Infinite'时会返回警告信息
+修复Bug及补全注释
+
 
 V1.2.2:
 / 补充注释。
