@@ -16,10 +16,10 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 ## Usage:
 
 Choose one: 
-  - <script src="http://wyjs.fun/wmath/Latest/wMath-Latest-1.2.5.js"> </script> 
+  - <script src="http://wyjs.fun/wmath/Latest/wMath-Latest-1.3.js"> </script> 
   - <script scr="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Other-js/algebra-0.2.4.min.js"></script>
   + If you are a developer you can use this version:
-  - <script src="http://wyjs.fun/wmath/Latest/wMath-Debug-1.2.5.js"> </script>
+  - <script src="http://wyjs.fun/wmath/Latest/wMath-Debug-1.3.js"> </script>
   - <script scr="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Other-js/algebra-0.2.4.min.js"></script> 
 
 Choose two: 
