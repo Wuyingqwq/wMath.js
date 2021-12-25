@@ -16,10 +16,10 @@
 ## 使用:
 
 选择1: 
-  - <script src="http://wyjs.fun/wmath/wMath-Latest-1.2.5.js"> </script> 
+  - <script src="http://wyjs.fun/wmath/wMath-Latest-1.3.js"> </script> 
   - <script src="http://wyjs.fun/wmath/algebra-0.2.4.min.js"> </script> 
   - 如果你是一个开发者，可以使用下面这个版本：
-  - <script src="http://wyjs.fun/wmath/wMath-Debug-1.2.5.js"> </script> 
+  - <script src="http://wyjs.fun/wmath/wMath-Debug-1.3.js"> </script> 
   - <script src="http://wyjs.fun/wmath/algebra-0.2.4.min.js"> </script> 
 
 选择2: 
