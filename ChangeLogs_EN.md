@@ -1,8 +1,12 @@
 English | [变更日志（简体中文）](./ChangeLogs_CN.md)
 
-# V1.2.5:
-## Delete algebra-0.2.4.min.js,now you must introduce Algebra.js again
-## Fix bugs in AMNO function
+# V1.3:
+## Add wMath_tools
+## Improve AMNO function
+
+V1.2.5:
+- Delete algebra-0.2.4.min.js,now you must introduce Algebra.js again
+- Fix bugs in AMNO function
 
 V1.2.4:
 - Add algebra-0.2.4.min.js
