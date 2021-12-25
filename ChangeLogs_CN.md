@@ -1,8 +1,12 @@
 [English](./ChangeLogs_EN.md) | 变更日志（简体中文）
 
-# V1.2.5:
-## 删除algebra-0.2.4.min.js的代码，现在你必须再次引入Algebra.js
-## 修复AMNO功能的bug
+# V1.3:
+## 添加wMath_tools
+## 改进AMNO功能
+
+- V1.2.5:
+- 删除algebra-0.2.4.min.js的代码，现在你必须再次引入Algebra.js
+- 修复AMNO功能的bug
 
 V1.2.4:
 - 添加algebra-0.2.4.min.js的代码
