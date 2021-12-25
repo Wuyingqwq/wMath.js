@@ -4,7 +4,7 @@
 ## 添加wMath_tools
 ## 改进AMNO功能
 
-- V1.2.5:
+V1.2.5:
 - 删除algebra-0.2.4.min.js的代码，现在你必须再次引入Algebra.js
 - 修复AMNO功能的bug
 
