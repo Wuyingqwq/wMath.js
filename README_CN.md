@@ -3,8 +3,8 @@
 # wMath
 ========================================
 ## 网站：
-- [wMath官网](http://wmath.icu/)
-- [使用wMath搭建的网站](http://math.wmath.icu/)
+
+- [使用wMath搭建的网站](https://wuyingweb.xyz/)
 
 ========================================
 
