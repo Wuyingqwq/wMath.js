@@ -19,7 +19,7 @@ Choose one:
   - <script src="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Latest/wMath-Latest-1.3.1.js"> </script> 
   - <script scr="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Other-js/algebra-0.2.4.min.js"></script>
   + If you are a developer you can use this version:
-  - <script src="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Latest/wMath-Latest-1.3.1.js"> </script>
+  - <script src="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Latest/wMath-Debug-1.3.1.js"> </script>
   - <script scr="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Other-js/algebra-0.2.4.min.js"></script> 
 
 Choose two: 
