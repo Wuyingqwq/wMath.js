@@ -2,7 +2,8 @@
 
 # V1.3.1:
 ## 添加now功能在wMath_tools中
-## 关闭wMath的网站
+## X 关闭wMath的网站
+## [010622]wMath的网站恢复！
 
 V1.3:
 - 添加wMath_tools
