@@ -1,4 +1,5 @@
-[English](./ChangeLogs_EN.md) | 变更日志（简体中文）
+[English](./ChangeLogs_EN.md) | 变更日志（简体中文） | [Instructions-说明书](./Instructions-说明书.md)
+
 
 # V1.3.1:
 ## 添加now功能在wMath_tools中
