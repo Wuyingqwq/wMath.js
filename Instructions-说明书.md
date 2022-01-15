@@ -149,14 +149,6 @@
 
 
 
-# About:
-##          Made by wuying.
-##          Email:wuyingqwq@gmail.com
-##          Website:No
-##          Github:https://github.com/Wuyingqwq/wMath
-
-
-
 # Notes:
 ##          algebra.js:
                 -https://github.com/nicolewhite/algebra.js  
@@ -164,3 +156,9 @@
                 -If you input is not number, it will return to "Undefined" in some of the features (如果你输入的不是数字，在某些功能中它会返回"Undefined")     
 
 
+
+# About:
+##          Made by wuying.
+##          Email:wuyingqwq@gmail.com
+##          Website:No
+##          Github:https://github.com/Wuyingqwq/wMath
