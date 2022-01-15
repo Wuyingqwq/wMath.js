@@ -1,4 +1,4 @@
-English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [变更日志（简体中文）](ChangeLogs_CN.md)
+English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [变更日志（简体中文）](ChangeLogs_CN.md) | [Instructions-说明书](./Instructions-说明书.md)
 
 # wMath
 ========================================
