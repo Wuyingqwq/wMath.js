@@ -1,10 +1,14 @@
 English | [变更日志（简体中文）](./ChangeLogs_CN.md) | [Instructions-说明书](./Instructions-说明书.md)
 
+# V1.3.3:
+Add "availWidth" and "availHeight" in wMath_tools
+Add load complete message 
+Fix bugs
 
-# V1.3.1:
-## Add "now" function in wMath_tools
-## X Close wMath's website
-## [010622]wMath's website is back
+V1.3.1:
+-Add "now" function in wMath_tools
+-X Close wMath's website
+-[010622]wMath's website is back
 
 V1.3:
 - Add wMath_tools
