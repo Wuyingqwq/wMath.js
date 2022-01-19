@@ -6,9 +6,9 @@ Add load complete message
 Fix bugs
 
 V1.3.1:
--Add "now" function in wMath_tools
--X Close wMath's website
--[010622]wMath's website is back
+- Add "now" function in wMath_tools
+- X Close wMath's website
+- [010622]wMath's website is back
 
 V1.3:
 - Add wMath_tools
