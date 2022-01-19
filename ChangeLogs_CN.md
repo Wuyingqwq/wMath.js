@@ -1,5 +1,9 @@
 [English](./ChangeLogs_EN.md) | 变更日志（简体中文） | [Instructions-说明书](./Instructions-说明书.md)
 
+# V1.3.3:
+## 添加“availWidth”和“availHeight”在wMath_tools
+## 添加加载完成时的信息
+## 修复Bug
 
 # V1.3.1:
 ## 添加now功能在wMath_tools中
