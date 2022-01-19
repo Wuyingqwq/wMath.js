@@ -4,7 +4,7 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 ========================================
 ## Website:
 
-- [Blog & Updates](https://wyjs.fun/index.php/category/wmath/) 
+- [Blog & Updates](https://wmath.wyjs.fun/) 
 - [Website built using wMath](https://wuyingweb.xyz/)
 
 
