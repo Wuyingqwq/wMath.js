@@ -5,7 +5,7 @@
 ========================================
 ## 网站：
 
-- [博客及更新](https://wyjs.fun/index.php/category/wmath/) 
+- [博客及更新](https://wmath.wyjs.fun/) 
 - [使用wMath搭建的网站](https://wuyingweb.xyz/)
 
 ========================================
