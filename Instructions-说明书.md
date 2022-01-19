@@ -127,6 +127,12 @@
                 -Default is cycle for seven days (默认是循环七天)
                 -You can change its output (你可以更改它的输出方式)
                 -Without any incoming parameters (无需传入任何参数)
+##          availWidth:
+                -To obtain the available width of the screen (获取屏幕的可用宽度)
+                -Without any incoming parameters (无需传入任何参数)
+##          availHeight:
+                -To obtain the available height of the screen (获取屏幕的可用高度)
+                -Without any incoming parameters (无需传入任何参数)
 
 
 
