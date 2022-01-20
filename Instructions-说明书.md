@@ -159,7 +159,8 @@
 ##          algebra.js:
                 -https://github.com/nicolewhite/algebra.js  
 ##          Functions:
-                -If you input is not number, it will return to "Undefined" in some of the features (如果你输入的不是数字，在某些功能中它会返回"Undefined")     
+                -If you input is not number, it will return to "Undefined" in some of the features (如果你输入的不是数字，在某些功能中它会返回"Undefined")
+                -If it returns "you input number is too large!", indicating that the result is too large, you can change this value (如果它返回“您输入的数字过大！”，说明结果过于大，您可以更改这个值)     
 
 
 
