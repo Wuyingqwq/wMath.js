@@ -19,7 +19,7 @@
 ## 使用:
 
 选择1: 
-  - <script src="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Latest/wMath-Latest-1.3.5F.js"> </script> 
+  - <script src="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Latest/wMath-Default-1.3.5F.js"> </script> 
   - <script src="http://wyjs.fun/wmath/algebra-0.2.4.min.js"> </script> 
   - 如果你是一个开发者，可以使用下面这个版本：
   - <script src="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Latest/wMath-Debug-1.3.5F.js"> </script> 
