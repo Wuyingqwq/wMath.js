@@ -1,4 +1,7 @@
 [English](./ChangeLogs_EN.md) | 变更日志（简体中文） | [Instructions-说明书](./Instructions-说明书.md)
+# V1.3.5:
+## 添加了版本检测
+
 V1.3.4:
 - 对代码进行了混淆
 - 修复bugs
