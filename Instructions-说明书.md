@@ -17,7 +17,6 @@
                 -Two strings need to be passed in (需传入两个字符串)
                 -The equation of the unknown can be x, y (方程的未知数只能是x，y)
                 -You must enter the right formulas,else it will wrong (你必须输入正确的式子，否则就会出错)
-                
 
 ##         pow:
                 -Calculate the y-power of X (计算x的y次幂)
@@ -80,6 +79,15 @@
 ##          oppositeNumber:
                 -Get the opposite of x (获取x的相反数)
                 -One numbers need to be passed in (需传入一个数字)
+                
+##          complementAngle:
+                -To get a complementary angle (获取一个角的余角)
+                -One angle need to be passed in (需要传入一个角的度数)
+
+##          supplementaryAngle:
+                -To get a supplementary angle (获取一个角的补角)
+                -One angle need to be passed in (需要传入一个角的度数)
+                
 
 
 
