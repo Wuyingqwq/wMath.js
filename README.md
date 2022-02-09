@@ -17,10 +17,10 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 ## Usage:
 
 Choose one: 
-  - <script src="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Latest/wMath-Default-1.3.5F.js"> </script> 
+  - <script src="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Latest/wMath-Default-1.3.6.js"> </script> 
   - <script scr="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Other-js/algebra-0.2.4.min.js"></script>
   + If you are a developer you can use this version:
-  - <script src="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Latest/wMath-Debug-1.3.5F.js"> </script>
+  - <script src="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Latest/wMath-Debug-1.3.6.js"> </script>
   - <script scr="https://raw.githack.com/Wuyingqwq/wMath/main/Builds/Other-js/algebra-0.2.4.min.js"></script> 
 
 Choose two: 
