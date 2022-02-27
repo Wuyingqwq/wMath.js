@@ -15,4 +15,4 @@
 - 有自己的想法
 
 ## If you meet the above conditions,you can send a email to join-us@wyjs.fun
-## 如果你符合上面的条件,你可以发送一封邮件join-us@wyjs.fun
+## 如果你符合上面的条件,你可以发送一封邮件到join-us@wyjs.fun
