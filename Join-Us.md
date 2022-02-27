@@ -1,7 +1,7 @@
 # Join us
 # 加入我们
 ## If you want to join us,you need to meet the following conditions:
-## 如果你想加入我们，你需要满足以下条件
+## 如果你想加入我们，你需要满足以下条件：
 
 - Have its own project and is useful.
 - 有自己的项目,是有用的。
