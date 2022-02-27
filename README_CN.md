@@ -9,7 +9,9 @@
 - [下载最新版](https://download.wmath.wyjs.fun/)
 - [使用wMath搭建的网站](https://wuyingweb.xyz/)
 
-========================================
+## 联系:
+- 加入我们:join-us@wyjs.fun
+- 反馈及Bugs:feedbacks@wyjs.fun
 
 ## 特点:
 
