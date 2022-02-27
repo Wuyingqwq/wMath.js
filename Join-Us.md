@@ -8,7 +8,7 @@
 - Have a GitHub account.
 - 有一个GitHub帐户。
 - Ability to maintain wMath.
-- 保持wMath能力。
+- 有能力维护wMath。
 - Can use JavaScript.
 - 可以使用JavaScript。
 - Have your own ideas.
