@@ -8,6 +8,8 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 - [Download latest version](https://download.wmath.wyjs.fun/)
 - [Website built using wMath](https://wuyingweb.xyz/)
 
+## Join us:
+ - E-mail:join-us@wyjs.fun
 
 ## Features:
 
