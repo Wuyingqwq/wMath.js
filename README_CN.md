@@ -5,8 +5,7 @@
 ========================================
 ## 网站：
 
-- [博客及更新](https://wmath.wyjs.fun/) 
-- [下载最新版](https://download.wmath.wyjs.fun/)
+- [下载](https://api.wyjs.fun/)
 - [使用wMath搭建的网站](https://wuyingweb.xyz/)
 
 ## 联系:
