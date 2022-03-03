@@ -148,7 +148,7 @@
 
 ##          $:
                 -Omit "document. The getElementById (id)," like jQuery (省略"document.getElementById(id)",像jQuery一样)
-                -For example,“$('test').style.color = 'red'” (如：“$('test').style.color = 'red'”)
+                -For example,“wMath_html.$('test').style.color = 'red'” (如：“wMath_html.$('test').style.color = 'red'”)
                 -Need to pass in a id (需要传入一个id)
 ##          getValue:
                 -To obtain the value of an element (获取某个元素的内容)
