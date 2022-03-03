@@ -1,6 +1,9 @@
 English | [变更日志（简体中文）](./ChangeLogs_CN.md) | [Instructions-说明书](./Instructions-说明书.md)
-# V1.3.7:
-## Improved version detection and added announcements 
+# V1.3.8:
+## Add judgment IP automatic switching announcement language
+
+V1.3.7:
+- Improved version detection and added announcements 
 
 V1.3.6:
 - Add "complementAngle" and "supplementaryAngle" functions
