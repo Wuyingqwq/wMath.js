@@ -175,6 +175,5 @@
 # About:
 ##          Made by wuying.
 ##          Email:feedbacks@wyjs.fun
-##          Website:https://wmath.wyjs.fun/
-##          Download:https://download.wmath.wyjs.fun/
+##          Website:https://api.wyjs.fun/
 ##          Github:https://github.com/Wuyingqwq/wMath
