@@ -1,6 +1,9 @@
 [English](./ChangeLogs_EN.md) | 变更日志（简体中文） | [Instructions-说明书](./Instructions-说明书.md)
-# V1.3.7:
-## 改进了版本检测，添加公告 
+# 1.3.8:
+## 添加判断IP自动切换公告语言
+
+V1.3.7:
+- 改进了版本检测，添加公告 
 
 V1.3.6:
 - 添加了获取余角"complementAngle"和获取补角"supplementaryAngle" 
