@@ -17,6 +17,7 @@
                 -Two strings need to be passed in (需传入两个字符串)
                 -The equation of the unknown can be x, y (方程的未知数只能是x，y)
                 -You must enter the right formulas,else it will wrong (你必须输入正确的式子，否则就会出错)
+                -The return value is an array, [0] for x expression, [1] for y expression, [2] for the value of x, [3] with the value of y (返回值是一个数组，[0]为x的表达式，[1]为y的表达式,[2]为x的值,[3]为y的值)
 
 ##         pow:
                 -Calculate the y-power of X (计算x的y次幂)
