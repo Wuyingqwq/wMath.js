@@ -1,6 +1,9 @@
 [English](./ChangeLogs_EN.md) | 变更日志（简体中文） | [Instructions-说明书](./Instructions-说明书.md)
-# 1.3.8:
-## 添加判断IP自动切换公告语言
+# V1.3.9:
+## 修复当你的网站是HTTPS协议时wMath的公告无法使用的bug
+
+1.3.8:
+- 添加判断IP自动切换公告语言
 
 V1.3.7:
 - 改进了版本检测，添加公告 
