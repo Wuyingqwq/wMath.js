@@ -5,7 +5,7 @@ English | [简体中文](./README_CN.md) | [Changelogs](./ChangeLogs_EN.md) | [�
 ## Website:
 
 - [Download](https://api.wyjs.fun/)
-- [Website built using wMath](https://wuyingweb.xyz/)
+- [Website built using wMath](https://wmath-example.wyjs.fun/)
 
 ## Connect:
  - Join us:join-us@wyjs.fun
