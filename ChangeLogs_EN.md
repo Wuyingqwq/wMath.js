@@ -56,7 +56,7 @@ V1.2.2:
  V1.2.1:
 - Add multiple numbers.
 - Add consecutive numbers.
-/ Fix bugs.
+- / Fix bugs.
 
 V1.2:
 + Add multiple numbers.
