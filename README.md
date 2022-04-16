@@ -19,10 +19,10 @@ English | [简体中文](./README_CN.md)
 ## Usage:
 
 Choose one: 
-  - <script src="https://raw.githack.com/Wuyingqwq/wMath.js/main/Builds/Latest/wMath-Default-1.4.0.js"> </script> 
+  - <script src="https://raw.githack.com/Wuyingqwq/wMath.js/main/Builds/Latest/wMath-1.5.0.js"> </script> 
   - <script scr="https://raw.githack.com/Wuyingqwq/wMath.js/main/Builds/Other-js/algebra-0.2.4.min.js"></script>
   + If you are a developer you can use this version:
-  - <script src="https://raw.githack.com/Wuyingqwq/wMath.js/main/Builds/Latest/wMath-Debug-1.4.0.js"> </script>
+  - <script src="https://raw.githack.com/Wuyingqwq/wMath.js/main/Builds/Latest/wMath-1.5.0.js"> </script>
   - <script scr="https://raw.githack.com/Wuyingqwq/wMath.js/main/Builds/Other-js/algebra-0.2.4.min.js"></script> 
 
 Choose two: 
