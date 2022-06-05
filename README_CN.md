@@ -10,7 +10,7 @@
 ## 使用:
 
 选择1: 
-  - <script src="https://raw.githack.com/Wuyingqwq/wMath.js/main/Builds/Latest/wMath-1.5.1.js"> </script> 
+  - <script src="https://raw.githack.com/Wuyingqwq/wMath.js/main/Builds/Latest/wMath-Last-Open source version.js"> </script> 
   - <script scr="https://raw.githack.com/Wuyingqwq/wMath.js/main/Builds/Other-js/algebra-0.2.4.min.js"></script>
 
 选择2: 
