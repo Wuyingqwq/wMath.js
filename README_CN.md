@@ -1,14 +1,6 @@
 [English](./README.md) | 简体中文
 # wMath
 ========================================
-## 网站：
-
-- [下载](https://api.wyjs.fun/)
-- [使用wMath搭建的网站](https://wmath-example.wyjs.fun)
-
-## 联系:
-- 加入我们:join-us@wyjs.fun
-- 反馈及Bugs:feedbacks@wyjs.fun
 
 ## 特点:
 
