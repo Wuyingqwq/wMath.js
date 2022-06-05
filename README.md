@@ -2,14 +2,6 @@ English | [简体中文](./README_CN.md)
 
 # wMath
 ========================================
-## Website:
-
-- [Download](https://api.wyjs.fun/)
-- [Website built using wMath](https://wmath-example.wyjs.fun/)
-
-## Connect:
- - Join us:join-us@wyjs.fun
- - Feedbacks & Bugs:feedbacks@wyjs.fun
 
 ## Features:
 
